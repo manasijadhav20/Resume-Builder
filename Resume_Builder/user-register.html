@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <title>Registration system PHP and MySQL</title>
+  
+  <style>
+form {
+ margin: 0;
+ margin-left: 300px;
+ margin-right: 300px;
+ padding: 2em 0;
+ border: 2px double;
+text-align: center;
+
+}
+
+a{
+  color: black;
+}
+label{
+  width:240px;
+  display: inline-block;
+}
+
+body
+{
+  background-image: url(images/intro-bg.jpg);
+}
+
+input{
+  height: 37px;
+  width: 35%;
+  border-radius: 4px;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: center;
+}
+
+form{
+background-color: #C0C0C0;
+padding: 10px;
+}
+
+label{
+  font-size: 20px;
+  width: 210px; 
+
+}
+</style>
+</head>
+<body>
+  <form method="post" action="user-register.php">
+     <div class="header">
+    <center>
+    <h1>Make Your Resume &#9999;</h1>
+  </div>
+    
+ <div class="input-group">
+
+
+  <label>PERSONAL DETAILS</label><br><br>
+        <label>Id:</label>
+      <input type="text" name="id" value="">
+    </div><br>
+      <label>Name:</label>
+      <input type="text" name="name" value="">
+    </div><br><br>
+    <div class="input-group">
+      <label>Address:</label>
+      <input type="text" name="address" value="">
+    </div><br>
+    <div class="input-group">
+      <label>Phone:</label>
+      <input type="text" name="phone" value="">
+    </div><br>
+    <label>Email:</label>
+      <input type="email" name="email" value="">
+    </div><br><br>
+    <label>Career Objective:</label>
+      <input type="text" name="objective" value="">
+    </div><br><br>
+
+
+    <label>EDUCATION DETAILS</label><br><br>
+    <label>Education1:</label>
+      <input type="text" name="Education1" value="">
+    </div><br><br>
+        <label>Education2:</label>
+      <input type="text" name="Education2" value="">
+    </div><br><br>
+        <label>Education3:</label>
+      <input type="text" name="Education3" value="">
+    </div><br><br>
+
+
+    <label>SKILLS & LANGUAGES</label><br><br>
+       <label>Language1:</label>
+      <input type="text" name="skill1" value="">
+    </div><br><br>
+           <label>Language2:</label>
+      <input type="text" name="skill2" value="">
+    </div><br><br>
+           <label>Language3:</label>
+      <input type="text" name="skill3" value="">
+    </div><br><br>
+           <label>Language4:</label>
+      <input type="text" name="skill4" value="">
+    </div><br><br>
+
+
+    <label>PROJECTS</label><br><br>
+       <label>Project1:</label>
+      <input type="text" name="project1" value="">
+    </div><br><br>
+           <label>Project2:</label>
+      <input type="text" name="project2" value="">
+    </div><br><br>
+           <label>Project3:</label>
+      <input type="text" name="project3" value="">
+    </div><br><br>
+
+
+    <label>LINKS</label><br><br>
+    <label>Github:</label>
+      <input type="text" name="github" value="">
+    </div><br><br>
+    <label>Linkedin:</label>
+      <input type="text" name="linkedin" value="">
+    </div><br><br>
+      <label>Password:</label>
+      <input type="password" name="password">
+    </div><br><br>
+    <div class="input-group">
+      <input type = 'submit'>
+    
+    </div>
+    <p>
+    <a href="login-page.html">Back to Login Page</a>
+    </p>
+   
+  </form>
+  </center>
+</body>
+</html>
